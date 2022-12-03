@@ -134,7 +134,7 @@ h6 {
   }
 }
 
-@media (max-width: 600px) {
+@media (min-width: 375px) and (max-width: 600px) {
   .about-text {
     flex-direction: column;
   }
@@ -172,7 +172,7 @@ h6 {
   }
 
   .about-info-item:not(:last-child) {
-    margin-right: 78px;
+    margin-right: 39px;
   }
 
   .about-info-item p {
